@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mwanzo Community Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#hero" class="logo">Mwanzo Community Library</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">What We Offer</a></li>
+          <li><a href="#hours">Opening Hours</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#membership">Membership</a></li>
+        </ul>
+      </nav>
+    </header>
+<!-- This is the Hero section -->
+    <main>
+      <section id="hero" class="hero">
+        <h1>Mwanzo Community Library</h1>
+
+        <p>
+          A quiet place to read, study and borrow — open to everyone in the
+          neighbourhood.
+        </p>
+
+        <a href="#membership" class="btn">Become a member</a>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+
+        <p>
+          Mwanzo Community Library opened in 2016 with 400 donated books and two
+          tables. Today we hold over 9,000 titles, run a free after-school
+          reading club, and lend books to more than 1,200 registered members.
+        </p>
+
+        <p>
+          We are funded entirely by membership fees and donations.
+          <strong>Everything we own was given to us</strong>, and everything we
+          lend comes back — mostly.
+        </p>
+      </section>
+
+      <section  class="section services">
+        <h2>What We Offer</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Borrowing</h3>
+            <p>
+              Up to four titles at a time, for three weeks, renewable once.
+              Fiction, non-fiction, reference and a growing children's section.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Study Space</h3>
+            <p>
+              Twenty-four quiet desks, power sockets at every table, and free
+              Wi-Fi. First come, first served.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Reading Club</h3>
+            <p>
+              Free after-school sessions for ages 6 to 14, every Tuesday and
+              Thursday. No registration needed — just turn up.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="hours" class="section">
+        <h2>Opening Hours</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Opens</th>
+              <th>Closes</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Monday - Friday</td>
+              <td>8:00 am</td>
+              <td>7:00 pm</td>
+            </tr>
+
+            <tr>
+              <td>Saturday</td>
+              <td>9:00 am</td>
+              <td>5:00 pm</td>
+            </tr>
+
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+              <td>Closed</td>
+            </tr>
+
+            <tr>
+              <td>Public holidays</td>
+              <td>10:00 am</td>
+              <td>2:00 pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="gallery" class="section">
+        <h2>Gallery</h2>
+
+        <div class="gallery">
+          <article class="gallery-item">
+            <div class="gallery-placeholder">Reading Room</div>
+          </article>
+
+          <article class="gallery-item">
+            <div class="gallery-placeholder">Children's Corner</div>
+          </article>
+
+          <article class="gallery-item">
+            <div class="gallery-placeholder">Study Desks</div>
+          </article>
+
+          <article class="gallery-item">
+            <div class="gallery-placeholder">Front Entrance</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="membership" class="section">
+        <h2>Become a member</h2>
+
+        <p>
+          Membership is KES 500 a year. Fill this in and we will call you back
+          within two days.
+        </p>
+
+        <form>
+          <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="membership-type">Membership type</label>
+
+            <select id="membership-type" name="membership-type">
+              <option value="individual">Individual</option>
+              <option value="student">Student</option>
+              <option value="family">Family</option>
+              <option value="senior">Senior</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Anything we should know?</label>
+
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send my application</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-columns">
+        <article>
+          <h3>Visit us</h3>
+          <p>14 Mwanzo Road, opposite the market.</p>
+        </article>
+
+        <article>
+          <h3>Contact</h3>
+          <p>hello@mwanzolibrary.co.ke</p>
+          <p>0700 000 000</p>
+        </article>
+
+        <article>
+          <h3>Quick links</h3>
+
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#membership">Membership</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="copyright">© 2026 Mwanzo Community Library.</p>
+    </footer>
+  </body>
+</html>
